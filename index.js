@@ -1,16 +1,14 @@
-
-let userNames = []
-
-function comibineUsers(userNames){
-combinedObject = {
+function combineUsers(placeHolder){
+let combinedObject = {
   users: [],
-  merge_date: {const mdy = new Date()},
+  merge_date: Date.today().toString("MM/dd/yyyy"),
 }
-
+(placeHolder).forEach(() => {
+  combinedObject.users = [...placeholder]
+})
+return combinedObject
 }
 combineUsers(...args)
-
-
 
 
 
