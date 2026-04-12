@@ -4,7 +4,7 @@ let combinedObject = {
   merge_date: Date.today().toString("MM/dd/yyyy"),
 }
 (placeHolder).forEach(() => {
-  combinedObject.users = [...placeholder]
+  combinedObject.users = [...placeHolder]
 })
 return combinedObject
 }
